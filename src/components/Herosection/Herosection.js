@@ -36,7 +36,7 @@ const Herosection = () => {
                 </p>
                 <a href="mailto:CoderVJain@outlook.com" className='contactbtn'>Contact me</a>
             </div>
-            <img src="/assests/heroSection.png" alt="" className='hero-img' />
+            <img src="/portfolio/assests/heroSection.png" alt="" className='hero-img' />
             <div className='topBlur' />
             <div className='bottomBlur' />
         </section>
