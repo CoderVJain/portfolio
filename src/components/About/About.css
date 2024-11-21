@@ -1,0 +1,63 @@
+.about-container {
+    position: relative;
+    background-color: rgba(12, 12, 12, 0.6);
+    border-radius: 15px;
+    padding: 80px;
+    margin-top: 120px;
+    margin-left: 7%;
+    margin-right: 7%;
+    z-index: 1;
+}
+
+.about-title:hover {
+    color: #576cbc;
+    cursor: pointer;
+}
+
+.about-title {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 14px;
+    width: 100%;
+}
+
+.about-image {
+    margin-top: 0;
+    width: 40%;
+    height: 450px;
+}
+
+.about-description {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'SUSE';
+    line-height: 40px;
+    letter-spacing: 2px;
+    width: 50%;
+}
+
+@media(max-width:1000px) {
+    .about-content{
+        flex-direction: column;
+    }
+    .about-image{
+        width: 80%;
+    }
+    .about-description{
+        width: 100%;
+        text-align: center;
+    }
+}

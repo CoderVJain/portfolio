@@ -1,0 +1,24 @@
+[
+    {
+        "title": "Edusity",
+        "imageSrc": "assests/edusity.png",
+        "description": "Edusity is a university website showcasing key information about the institution, including its programs, campus photos, student testimonials, and contact details. The site offers a user-friendly experience for prospective students and visitors to explore and connect with the university.",
+        "skills": [
+            "React",
+            "HTML",
+            "CSS"
+        ],
+        "source": "https://github.com/CoderVJain/University-Webiste.git"
+    },
+    {
+        "title": "E-commerce Project",
+        "imageSrc": "assests/sneakers.png",
+        "description": ".sneakers is an e-commerce website featuring popular sneaker brands like Airforce, Jordan, and Blazer, offering users the ability to browse and purchase products. It also includes user-friendly login and signup functionality for a seamless shopping experience.",
+        "skills": [
+            "HTML",
+            "CSS",
+            "Javascript"
+        ],
+        "source": "https://github.com/CoderVJain/E-commerce-Website.git"
+    }
+]

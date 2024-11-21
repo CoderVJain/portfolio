@@ -1,0 +1,52 @@
+.project-container {
+    margin-top: 76px;
+    color: #fff;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.project-title {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.project-title:hover {
+    color: #576cbc;
+    cursor: pointer;
+}
+
+.projects {
+    width: 50%;
+    display: flex;
+}
+
+@media (max-width:1024px) {
+    .project-title {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .projects {
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 30px
+    }
+}
+@media (max-width: 770px) {
+    
+
+    .project-title {
+        font-size: 35px;
+    }
+}
+
+
+@media (max-width: 48px) {
+    .project-title {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "title": "HTML",
+        "imageSrc": "assests/html.png"
+      },
+      {
+        "title": "CSS",
+        "imageSrc": "assests/css.png"
+      },
+      {
+        "title": "Javascript",
+        "imageSrc": "assests/javascript.png"
+      },
+      {
+        "title": "React",
+        "imageSrc": "assests/react.png"
+      },
+      {
+        "title": "Node",
+        "imageSrc": "assests/node.png"
+      },
+      {
+        "title": "MongoDB",
+        "imageSrc": "assests/mongodb.png"
+      },
+      {
+        "title": "MySQL",
+        "imageSrc": "assests/mysql.png"
+      },
+      {
+        "title": "Java",
+        "imageSrc": "assests/java-logo-1.png"
+      }
+]

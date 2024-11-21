@@ -1,0 +1,140 @@
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin-top: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.contact-title {
+    font-size: 50px;
+    margin: 0;
+}
+
+.contact-col{
+    margin-left: 3%;
+}
+
+.contact-links {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    gap: 26px;
+    padding-left: 0px;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.contact-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+.contact-link img {
+    width: 10%;
+}
+
+.contact-link:hover a {
+    color: #19376d;
+}
+
+.contact-col-2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contact-col-2 form {
+    display: flex;
+    flex-direction: column;
+}
+.contact form input, .contact form textarea{
+    width: 100%;
+    background: #19376d;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+    border-radius: 30px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.contact label {
+    font-size: 30px;
+    color: #fff;
+}
+
+.contact-col span {
+    display: block;
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.btn {
+    background: white;
+    color: #fff;
+    padding: 14px 25px;
+    font-size: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn img {
+    width: 30px;
+    margin-left: 10px;
+
+}
+
+.btn.dark_btn {
+    background: #19376d;
+    color: #837e7e;
+}
+
+@media (max-width:950px) {
+    .contact-title {
+        font-size: 40px;
+    }
+    .contact-link a {
+        font-size: 20px;
+    }
+    .contact form input, .contact form textarea{
+        font-size: 15px;
+    }
+    .contact label {
+        font-size: 20px;
+    }
+    .contact-col span {
+        font-size: 20px;
+    }
+    .btn {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 960px) {
+    .contact {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .contact-col-2{
+        width: 50%;
+    }
+}
