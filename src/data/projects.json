@@ -8,7 +8,7 @@
             "HTML",
             "CSS"
         ],
-        "source": "https://github.com/CoderVJain/University-Webiste.git"
+        "link": "https://uni-website3232.netlify.app/"
     },
     {
         "title": "E-commerce Project",
@@ -19,6 +19,6 @@
             "CSS",
             "Javascript"
         ],
-        "source": "https://github.com/CoderVJain/E-commerce-Website.git"
+        "link": "https://cheerful-flan-5b5bba.netlify.app/"
     }
 ]

@@ -32,7 +32,7 @@ const Herosection = () => {
                     <span className='cursor'>|</span>
                 </h1>
                 <p className="description">
-                Ipassionate web developer dedicated to creating responsive and user-centric applications.
+                I am a passionate web developer dedicated to creating responsive and user-centric applications.
                 </p>
                 <a href="mailto:CoderVJain@outlook.com" className='contactbtn'>Contact me</a>
             </div>
