@@ -3,7 +3,7 @@ import React from 'react'
 import './ProjectCard.css'
 
 const ProjectCard = ({
-    project: { title, imageSrc, description, skills, demo, source },
+    project: { title, imageSrc, description, skills, demo, link },
 }) => {
     return (
         <div className='pc-container'>
