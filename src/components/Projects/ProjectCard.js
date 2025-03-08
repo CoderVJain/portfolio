@@ -24,7 +24,7 @@ const ProjectCard = ({
                 })}
             </ul>
             <div className="pc-links">
-                <a href={source} className="pc-link">
+                <a href={link} className="pc-link">
                     Link
                 </a>
             </div>
